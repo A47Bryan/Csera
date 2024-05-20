@@ -1,0 +1,127 @@
+body{
+  image-rendering: smooth;
+}
+nav{
+  background: #FFB063;
+  height:auto;
+  display: flex;
+  justify-content:space-evenly;
+  border-radius:50px;
+}
+
+nav a{
+ color: #1DA1F2;
+ padding: 30px 5px; 
+ text-decoration:none;
+}
+
+nav a:hover{
+  transition: text-decoration ease-in-out 2s ;
+  text-decoration:underline;
+}
+
+.content{
+  margin:2em auto;
+}
+
+.Para-1{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  margin: 2em auto 0 auto;
+  
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  row-gap: 4rem;
+  color: #F2FFFF;
+
+}
+
+.Para-1 div{
+  width: 85%;
+}
+
+.buffer{
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(63 63 63);
+  color:#ffff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
+
+.Para-2{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  row-gap: 4rem;
+  color: #F2FFFF;
+
+}
+
+.Para-2 div{
+  width: 85%;
+}
+
+
+.Para-3{
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items:center;
+  
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #F2FFFF;
+}
+
+.Para-3 h1{
+  font-size:50px;
+  margin:2em auto;
+}
+
+
+@media only screen and (orientation: portrait) {
+  .Para-1{
+    background-image: url("https://images.pexels.com/photos/2363290/pexels-photo-2363290.jpeg?auto=compress&cs=tinysrgb&w=400");
+  }
+  .Para-2 {
+    background-image: url("https://images.pexels.com/photos/159632/school-children-happy-food-159632.jpeg?auto=compress&cs=tinysrgb&w=400");
+  }
+  
+  .Para-3 {
+    background-image: url("https://images.pexels.com/photos/978710/pexels-photo-978710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+}
+
+
+@media only screen and (orientation: landscape) {
+  .Para-1{
+    background-image: url("https://images.pexels.com/photos/1094079/pexels-photo-1094079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  .Para-2 {
+    background-image: url("https://images.pexels.com/photos/573243/pexels-photo-573243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  
+    .Para-3 {
+    background-image: url("https://images.pexels.com/photos/978710/pexels-photo-978710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+}
